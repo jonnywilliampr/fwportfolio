@@ -10,13 +10,12 @@ O objetivo deste projeto foi criar uma landing page com menu interativo, animaç
 Concluído 🚀
 
 ## Demonstração de Aplicação
----
-https://naughty-mayer-a49b8b.netlify.app
+
+[Demonstração](https://naughty-mayer-a49b8b.netlify.app)
 
 Obs.: Melhor visualização seria pelo VSCode.
 
 ### Autor
----
 
 <a href="https://media-exp3.licdn.com/dms/image/C4E03AQHXPzV0bbW-tA/profile-displayphoto-shrink_800_800/0/1612268887607?e=1632355200&v=beta&t=epE32_QObuqcltUUIL6hGTLiysURXnfjEzQcwm6PY6I">
  <img style="border-radius: 50%;" src="https://media-exp3.licdn.com/dms/image/C4E03AQHXPzV0bbW-tA/profile-displayphoto-shrink_800_800/0/1612268887607?e=1632355200&v=beta&t=epE32_QObuqcltUUIL6hGTLiysURXnfjEzQcwm6PY6I" width="100px;" alt=""/>
