@@ -26,5 +26,5 @@ Obs.: Melhor visualização seria pelo VSCode.
 
 Feito com ❤️ por Jonny William 👋🏽 Entre em contato!
 
-[![Linkedin Badge]](https://www.linkedin.com/in/jonnywilliampr/) 
-[![Gmail Badge]](mailto:jonnywilliampr@gmail.com)
+[Linkedin Badge](https://www.linkedin.com/in/jonnywilliampr/) 
+[Gmail Badge](mailto:jonnywilliampr@gmail.com)
