@@ -1,17 +1,17 @@
 # Portfólio - Front Week
 ###
 ## Descrição
----
+
 Projeto feito utilizando HTML, CSS, SASS e JavaScript. 
 O objetivo deste projeto foi criar uma landing page com menu interativo, animações e botões interativos.
 
 ## Status do Projeto
----
+
 Concluído 🚀
 
 ## Demonstração de Aplicação
 
-[Demonstração](https://naughty-mayer-a49b8b.netlify.app)
+[Link do Site](https://naughty-mayer-a49b8b.netlify.app)
 
 Obs.: Melhor visualização seria pelo VSCode.
 
