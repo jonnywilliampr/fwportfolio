@@ -1,0 +1,164 @@
+h1, h2, h3, h4, h5, h6, p, a{
+    font-family: 'Ubuntu', sans-serif;
+    color: $white-dark;
+    font-weight: 400;
+}
+
+a{
+    text-decoration: none;
+}
+
+.link{
+    padding: 8px 24px;
+    font-size: 20px;
+    display: inline-block;
+    transition: .5s ease;
+
+    position: relative;
+
+    &::after{
+        content: '';
+        display: block;
+
+        position: absolute;
+        top: 100%;
+        left: 0;
+
+        width: 0%;
+        height: 2px;
+
+        transform: translate(20%, -50%);
+        transition: .5s ease;
+
+        background-color: $purple-normal;
+    }
+
+    &:hover{
+        opacity: .5;
+
+        &::after{
+        
+            width: 70%;
+            
+        }
+    }
+}
+
+h1{
+    font-size: 80px;
+    line-height: 100%;
+}
+
+@media screen and (max-width: 960px){
+    h1{
+        font-size: 56px;
+    }
+
+    h2{
+        font-size: 48px;
+    }
+
+    h3{
+        font-size: 32px;
+    }
+}
+
+h2{
+    font-size: 72px;
+    line-height: 110%;
+}
+
+h3{
+    font-size: 40px;
+    line-height: 115%;
+    transition: .5s ease;
+    
+    &:hover{
+        color: $purple-dark;
+        font-weight: 400;
+    }
+}
+
+h4{
+    font-size: 32px;
+    line-height: 120%;
+}
+
+h5{
+    font-size: 24px;
+    line-height: 130%;
+}
+
+h6{
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.mask{
+    background: linear-gradient(139.17deg, #52307D 15.97%, #9783B1 83.28%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
+    margin-right: 30px;
+}
+
+.text-left{
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.square{
+    display: inline-block;
+    margin-top: 64px;
+    
+    font-size: 24px;
+    padding: 16px 24px;
+    position: relative;
+
+    &::after{
+        content: '';
+        display: block;
+
+        position: absolute;
+
+        top: 0;
+        left: 0;
+        
+        z-index: -1;
+        width: 153px;
+        height: 65px;
+        border-radius: 2px;
+        transform: translate(-5%, -5%);
+        transition: 0.5s ease;
+        background: linear-gradient(141.51deg, #52307D 17.04%, #080808 83.41%);
+    }
+
+    &:hover{
+        &::after{
+            width: 133px;
+            height: 133px;
+            border-radius: 2px;
+        transform: translate(-2%, -26%) rotate(45deg);
+        }
+    }
+}
+
+@media screen and (max-width: 960px){
+    .square{
+        display: none;
+    }
+}
+
+.flex-end{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
